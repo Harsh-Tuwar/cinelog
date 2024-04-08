@@ -1,6 +1,6 @@
 import express from 'express';
 import { isAuthenticated } from '../../middlewares/auth';
-import { CinelogRequest } from 'src/types/base';
+import { CinelogRequest } from '../../types/base';
 
 export const homeRouter = express.Router();
 
